@@ -1,0 +1,141 @@
+#board {
+    --token-size: 48px;
+    --token-radius: 40px;
+    --token-margin: 4px;
+    border: 2px solid black;
+    width: max-content;
+    display: grid;
+    grid-template-rows: repeat(6, var(--token-size));
+    grid-template-columns: repeat(7, var(--token-size));
+    height: calc(6 * var(--token-size));
+
+    /* flow from bottom to top */
+    transform: scaleY(-1);
+}
+
+.token {
+    width: var(--token-radius);
+    height: var(--token-radius);
+    margin: var(--token-margin);
+    border-radius: 50%;
+    background-color: gold;
+    grid-column: var(--col);
+}
+
+.token:nth-child(2n) {
+    background-color: red;
+}
+
+.drop-region {
+    position: absolute;
+    top: 0;
+    left: calc(var(--token-size) * (var(--col) - 1));
+    width: var(--token-size);
+    height: calc(6 * var(--token-size));
+    cursor: pointer;
+}
+
+/* put tokens and drop regions in the correct columns */
+
+.col1 {
+    --col: 1;
+}
+
+.col2 {
+    --col: 2;
+}
+
+.col3 {
+    --col: 3;
+}
+
+.col4 {
+    --col: 4;
+}
+
+.col5 {
+    --col: 5;
+}
+
+.col6 {
+    --col: 6;
+}
+
+.col7 {
+    --col: 7;
+}
+
+/* put tokens in the correct rows */
+
+.token:nth-of-type(1) {
+    grid-row: 1;
+}
+
+.token:nth-of-type(2) {
+    grid-row: 2;
+}
+
+.token:nth-of-type(3) {
+    grid-row: 3;
+}
+
+.token:nth-of-type(4) {
+    grid-row: 4;
+}
+
+.token:nth-of-type(5) {
+    grid-row: 5;
+}
+
+.token:nth-of-type(6) {
+    grid-row: 6;
+}
+
+/* disable drop regions when full */
+
+.token.col1:nth-of-type(6) ~ .drop-region.col1 {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.token.col2:nth-of-type(6) ~ .drop-region.col2 {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.token.col3:nth-of-type(6) ~ .drop-region.col3 {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.token.col4:nth-of-type(6) ~ .drop-region.col4 {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.token.col5:nth-of-type(6) ~ .drop-region.col5 {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.token.col6:nth-of-type(6) ~ .drop-region.col6 {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.token.col7:nth-of-type(6) ~ .drop-region.col7 {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+#status::after {
+    content: "Yellow to move";
+}
+
+#board:has(.token:nth-child(odd) + .drop-region) + #status::after {
+    content: "Red to move";
+}
+
+#board:has(.token:nth-child(42)) + #status::after {
+    content: "Draw! Refresh to reset";
+}

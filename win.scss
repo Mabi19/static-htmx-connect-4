@@ -1,0 +1,95 @@
+@use "sass:map";
+
+$players: ("yellow", "red");
+$player-parities: ("yellow": odd, "red": even);
+$player-victory-messages: ("yellow": "Yellow wins! Refresh to reset", "red": "Red wins! Refresh to reset");
+
+//! This doesn't work because it locks in an order.
+//! Instead, use a :has on the board for each token
+//! like #board:has(1, 1):has(2, 1):has(3, 1):has(4, 1)
+
+#board {
+    position: relative;
+}
+
+#board::after {
+    box-sizing: border-box;
+
+    --x: 0;
+    --y: 0;
+    // Set to sqrt(2) for diagonals.
+    --length-scale: 1;
+    --rotation: 0deg;
+
+    display: block;
+    border: 2px solid black;
+    border-radius: calc(var(--token-size) / 2);
+
+    width: calc(var(--length-scale) * 4 * var(--token-size));
+    height: var(--token-size);
+
+    position: absolute;
+
+
+
+    left: calc(var(--token-size) * var(--x));
+    top: calc(var(--token-size) * var(--y));
+    transform: rotate(var(--rotation));
+    transform-origin: calc(var(--token-size) / 2);
+}
+
+@mixin victory($player, $x, $y, $rotation, $is-diagonal) {
+    &::after {
+        content: "";
+        --x: #{$x - 1};
+        --y: #{$y - 1};
+        --rotation: #{$rotation};
+        --length-scale: #{if($is-diagonal, sqrt(2), 1)};
+    }
+
+    .drop-region {
+        pointer-events: none;
+        cursor: not-allowed;
+    }
+
+    & + #status::after {
+        content: "#{map.get($player-victory-messages, $player)}";
+    }
+}
+
+/* #region Vertical victories */
+
+@for $col from 1 through 7 {
+    @for $bottomRow from 1 through 3 {
+        @each $player in $players {
+            $parity: map.get($player-parities, $player);
+            #board:has(.token:nth-child(#{$parity}):nth-child(#{$bottomRow} of .col#{$col})):has(.token:nth-child(#{$parity}):nth-child(#{$bottomRow + 1} of .col#{$col})):has(.token:nth-child(#{$parity}):nth-child(#{$bottomRow + 2} of .col#{$col})):has(.token:nth-child(#{$parity}):nth-child(#{$bottomRow + 3} of .col#{$col})) {
+                @include victory($player, $col, $bottomRow, 90deg, $is-diagonal: false);
+            }
+        }
+    }
+}
+
+/* #endregion */
+/* #region Horizontal victories */
+
+@for $row from 1 through 6 {
+    @for $leftColumn from 1 through 4 {
+        @each $player in $players {
+            $parity: map.get($player-parities, $player);
+            #board:has(.token:nth-child(#{$parity}):nth-child(#{$row} of .col#{$leftColumn})):has(.token:nth-child(#{$parity}):nth-child(#{$row} of .col#{$leftColumn + 1})):has(.token:nth-child(#{$parity}):nth-child(#{$row} of .col#{$leftColumn + 2})):has(.token:nth-child(#{$parity}):nth-child(#{$row} of .col#{$leftColumn + 3})) {
+                @include victory($player, $leftColumn, $row, 0deg, $is-diagonal: false);
+            }
+        }
+    }
+}
+
+/* #endregion */
+/* #region Ascending diagonal victories */
+
+
+/* #endregion */
+/* #region Descending diagonal victories */
+
+
+/* #endregion */
