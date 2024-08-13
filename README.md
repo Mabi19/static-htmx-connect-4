@@ -4,7 +4,7 @@
 
 This is an implementation of Connect 4, made with HTMX and a *lot* of CSS.
 HTMX isn't powerful enough to drive the game logic without a backend server (which is a good thing normally),
-so it's basically only used to insert new tokens into the game board.
+so it's mostly just used to insert new tokens into the game board.
 
 Soon there'll be a blog post explaining how it works. But not yet.
 
