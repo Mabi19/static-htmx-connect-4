@@ -16,6 +16,7 @@ body {
     font-family: "IBM Plex Sans", sans-serif;
     max-width: 600px;
     margin: auto;
+    line-height: 1.4;
 }
 
 code {
