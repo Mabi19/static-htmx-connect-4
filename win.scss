@@ -4,10 +4,6 @@ $players: ("yellow", "red");
 $player-parities: ("yellow": odd, "red": even);
 $player-victory-messages: ("yellow": "Yellow wins! Refresh to reset", "red": "Red wins! Refresh to reset");
 
-//! This doesn't work because it locks in an order.
-//! Instead, use a :has on the board for each token
-//! like #board:has(1, 1):has(2, 1):has(3, 1):has(4, 1)
-
 #board {
     position: relative;
 }
@@ -17,7 +13,7 @@ $player-victory-messages: ("yellow": "Yellow wins! Refresh to reset", "red": "Re
 
     --x: 0;
     --y: 0;
-    // Set to sqrt(2) for diagonals.
+    // Increase for diagonals.
     --length-scale: 1;
     --rotation: 0deg;
 
