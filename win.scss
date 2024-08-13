@@ -44,7 +44,8 @@ $player-victory-messages: ("yellow": "Yellow wins! Refresh to reset", "red": "Re
         --x: #{$x - 1};
         --y: #{$y - 1};
         --rotation: #{$rotation};
-        --length-scale: #{if($is-diagonal, sqrt(2), 1)};
+        // The scale also scales up the margins, so remove that
+        --length-scale: #{if($is-diagonal, sqrt(2) - 4px / 40px, 1)};
     }
 
     .drop-region {
@@ -87,9 +88,29 @@ $player-victory-messages: ("yellow": "Yellow wins! Refresh to reset", "red": "Re
 /* #endregion */
 /* #region Ascending diagonal victories */
 
+@for $bottomRow from 1 through 3 {
+    @for $leftColumn from 1 through 4 {
+        @each $player in $players {
+            $parity: map.get($player-parities, $player);
+            #board:has(.token:nth-child(#{$parity}):nth-child(#{$bottomRow} of .col#{$leftColumn})):has(.token:nth-child(#{$parity}):nth-child(#{$bottomRow + 1} of .col#{$leftColumn + 1})):has(.token:nth-child(#{$parity}):nth-child(#{$bottomRow + 2} of .col#{$leftColumn + 2})):has(.token:nth-child(#{$parity}):nth-child(#{$bottomRow + 3} of .col#{$leftColumn + 3})) {
+                @include victory($player, $leftColumn, $bottomRow, 45deg, $is-diagonal: true);
+            }
+        }
+    }
+}
 
 /* #endregion */
 /* #region Descending diagonal victories */
 
+@for $topRow from 6 through 4 {
+    @for $leftColumn from 1 through 4 {
+        @each $player in $players {
+            $parity: map.get($player-parities, $player);
+            #board:has(.token:nth-child(#{$parity}):nth-child(#{$topRow} of .col#{$leftColumn})):has(.token:nth-child(#{$parity}):nth-child(#{$topRow - 1} of .col#{$leftColumn + 1})):has(.token:nth-child(#{$parity}):nth-child(#{$topRow - 2} of .col#{$leftColumn + 2})):has(.token:nth-child(#{$parity}):nth-child(#{$topRow - 3} of .col#{$leftColumn + 3})) {
+                @include victory($player, $leftColumn, $topRow, -45deg, $is-diagonal: true);
+            }
+        }
+    }
+}
 
 /* #endregion */

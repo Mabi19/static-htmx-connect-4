@@ -1375,8 +1375,728 @@
 
 /* #endregion */
 /* #region Ascending diagonal victories */
+#board:has(.token:nth-child(odd):nth-child(1 of .col1)):has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 0;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(1 of .col1)):has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(1 of .col1)):has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(1 of .col1)):has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 0;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(1 of .col1)):has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(1 of .col1)):has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 0;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 0;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 0;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 0;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 0;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col7)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 0;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col7)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 1;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 1;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 1;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 1;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 1;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 1;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 1;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col7)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(5 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 1;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(5 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(5 of .col7)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 2;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 2;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 2;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 2;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 2;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col6)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(6 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 2;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(6 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(6 of .col6)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)):has(.token:nth-child(odd):nth-child(6 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 2;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)):has(.token:nth-child(odd):nth-child(6 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)):has(.token:nth-child(odd):nth-child(6 of .col7)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)):has(.token:nth-child(even):nth-child(6 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 2;
+  --rotation: 45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)):has(.token:nth-child(even):nth-child(6 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)):has(.token:nth-child(even):nth-child(6 of .col7)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
 /* #endregion */
 /* #region Descending diagonal victories */
+#board:has(.token:nth-child(odd):nth-child(6 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 5;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(6 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(6 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(6 of .col1)):has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 5;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(6 of .col1)):has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(6 of .col1)):has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(6 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 5;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(6 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(6 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(6 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 5;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(6 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(6 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 5;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 5;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 5;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col7)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(3 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 5;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(3 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(3 of .col7)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(5 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 4;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(5 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(5 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(5 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 4;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(5 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(5 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 4;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 4;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 4;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 4;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(2 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 4;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(2 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(2 of .col7)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(2 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 4;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(2 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(2 of .col7)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 3;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4))::after {
+  content: "";
+  --x: 0;
+  --y: 3;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 3;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5))::after {
+  content: "";
+  --x: 1;
+  --y: 3;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(1 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 3;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(1 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(1 of .col6)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(1 of .col6))::after {
+  content: "";
+  --x: 2;
+  --y: 3;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(1 of .col6)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(1 of .col6)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(1 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 3;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(1 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(1 of .col7)) + #status::after {
+  content: "Yellow wins! Refresh to reset";
+}
+
+#board:has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(1 of .col7))::after {
+  content: "";
+  --x: 3;
+  --y: 3;
+  --rotation: -45deg;
+  --length-scale: 1.3142135624;
+}
+#board:has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(1 of .col7)) .drop-region {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#board:has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(1 of .col7)) + #status::after {
+  content: "Red wins! Refresh to reset";
+}
+
 /* #endregion */
 
 /*# sourceMappingURL=win.css.map */
