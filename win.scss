@@ -50,7 +50,7 @@ $player-victory-messages: ("yellow": "Yellow wins! Refresh to reset", "red": "Re
     }
 
     & + #status::after {
-        content: "#{map.get($player-victory-messages, $player)}";
+        content: "#{map.get($player-victory-messages, $player)}" !important;
     }
 }
 

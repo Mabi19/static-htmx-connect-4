@@ -178,5 +178,5 @@ code {
 }
 
 #board:has(.token:nth-child(42)) + #status::after {
-    content: "Draw! Refresh to reset";
+    content: "Draw! Refresh to reset" !important;
 }

@@ -33,7 +33,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col1)):has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col1)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col1)):has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col1))::after {
@@ -48,7 +48,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col1)):has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col1)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col1))::after {
@@ -63,7 +63,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col1)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(5 of .col1))::after {
@@ -78,7 +78,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(5 of .col1)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col1)):has(.token:nth-child(odd):nth-child(6 of .col1))::after {
@@ -93,7 +93,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col1)):has(.token:nth-child(odd):nth-child(6 of .col1)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(5 of .col1)):has(.token:nth-child(even):nth-child(6 of .col1))::after {
@@ -108,7 +108,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(5 of .col1)):has(.token:nth-child(even):nth-child(6 of .col1)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col2))::after {
@@ -123,7 +123,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col2)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col2))::after {
@@ -138,7 +138,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col2)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col2))::after {
@@ -153,7 +153,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col2)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(5 of .col2))::after {
@@ -168,7 +168,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(5 of .col2)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(6 of .col2))::after {
@@ -183,7 +183,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(6 of .col2)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(6 of .col2))::after {
@@ -198,7 +198,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(6 of .col2)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col3))::after {
@@ -213,7 +213,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col3)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col3))::after {
@@ -228,7 +228,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col3)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col3))::after {
@@ -243,7 +243,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col3)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col3))::after {
@@ -258,7 +258,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col3)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col3))::after {
@@ -273,7 +273,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col3)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(6 of .col3))::after {
@@ -288,7 +288,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(6 of .col3)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col4))::after {
@@ -303,7 +303,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col4))::after {
@@ -318,7 +318,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col4))::after {
@@ -333,7 +333,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col4))::after {
@@ -348,7 +348,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col4))::after {
@@ -363,7 +363,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(6 of .col4))::after {
@@ -378,7 +378,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(6 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col5))::after {
@@ -393,7 +393,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col5)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col5))::after {
@@ -408,7 +408,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col5)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col5))::after {
@@ -423,7 +423,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col5))::after {
@@ -438,7 +438,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col5))::after {
@@ -453,7 +453,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(6 of .col5))::after {
@@ -468,7 +468,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(6 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col6)):has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col6))::after {
@@ -483,7 +483,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col6)):has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col6)):has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col6))::after {
@@ -498,7 +498,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col6)):has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col6))::after {
@@ -513,7 +513,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(5 of .col6))::after {
@@ -528,7 +528,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(5 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col6)):has(.token:nth-child(odd):nth-child(6 of .col6))::after {
@@ -543,7 +543,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col6)):has(.token:nth-child(odd):nth-child(6 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(5 of .col6)):has(.token:nth-child(even):nth-child(6 of .col6))::after {
@@ -558,7 +558,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(5 of .col6)):has(.token:nth-child(even):nth-child(6 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col7)):has(.token:nth-child(odd):nth-child(2 of .col7)):has(.token:nth-child(odd):nth-child(3 of .col7)):has(.token:nth-child(odd):nth-child(4 of .col7))::after {
@@ -573,7 +573,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col7)):has(.token:nth-child(odd):nth-child(2 of .col7)):has(.token:nth-child(odd):nth-child(3 of .col7)):has(.token:nth-child(odd):nth-child(4 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col7)):has(.token:nth-child(even):nth-child(2 of .col7)):has(.token:nth-child(even):nth-child(3 of .col7)):has(.token:nth-child(even):nth-child(4 of .col7))::after {
@@ -588,7 +588,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col7)):has(.token:nth-child(even):nth-child(2 of .col7)):has(.token:nth-child(even):nth-child(3 of .col7)):has(.token:nth-child(even):nth-child(4 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col7)):has(.token:nth-child(odd):nth-child(3 of .col7)):has(.token:nth-child(odd):nth-child(4 of .col7)):has(.token:nth-child(odd):nth-child(5 of .col7))::after {
@@ -603,7 +603,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col7)):has(.token:nth-child(odd):nth-child(3 of .col7)):has(.token:nth-child(odd):nth-child(4 of .col7)):has(.token:nth-child(odd):nth-child(5 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col7)):has(.token:nth-child(even):nth-child(3 of .col7)):has(.token:nth-child(even):nth-child(4 of .col7)):has(.token:nth-child(even):nth-child(5 of .col7))::after {
@@ -618,7 +618,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col7)):has(.token:nth-child(even):nth-child(3 of .col7)):has(.token:nth-child(even):nth-child(4 of .col7)):has(.token:nth-child(even):nth-child(5 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col7)):has(.token:nth-child(odd):nth-child(4 of .col7)):has(.token:nth-child(odd):nth-child(5 of .col7)):has(.token:nth-child(odd):nth-child(6 of .col7))::after {
@@ -633,7 +633,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col7)):has(.token:nth-child(odd):nth-child(4 of .col7)):has(.token:nth-child(odd):nth-child(5 of .col7)):has(.token:nth-child(odd):nth-child(6 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col7)):has(.token:nth-child(even):nth-child(4 of .col7)):has(.token:nth-child(even):nth-child(5 of .col7)):has(.token:nth-child(even):nth-child(6 of .col7))::after {
@@ -648,7 +648,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col7)):has(.token:nth-child(even):nth-child(4 of .col7)):has(.token:nth-child(even):nth-child(5 of .col7)):has(.token:nth-child(even):nth-child(6 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 /* #endregion */
@@ -665,7 +665,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col1)):has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col1)):has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4))::after {
@@ -680,7 +680,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col1)):has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5))::after {
@@ -695,7 +695,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5))::after {
@@ -710,7 +710,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5)):has(.token:nth-child(odd):nth-child(1 of .col6))::after {
@@ -725,7 +725,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5)):has(.token:nth-child(odd):nth-child(1 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5)):has(.token:nth-child(even):nth-child(1 of .col6))::after {
@@ -740,7 +740,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5)):has(.token:nth-child(even):nth-child(1 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5)):has(.token:nth-child(odd):nth-child(1 of .col6)):has(.token:nth-child(odd):nth-child(1 of .col7))::after {
@@ -755,7 +755,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5)):has(.token:nth-child(odd):nth-child(1 of .col6)):has(.token:nth-child(odd):nth-child(1 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5)):has(.token:nth-child(even):nth-child(1 of .col6)):has(.token:nth-child(even):nth-child(1 of .col7))::after {
@@ -770,7 +770,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5)):has(.token:nth-child(even):nth-child(1 of .col6)):has(.token:nth-child(even):nth-child(1 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4))::after {
@@ -785,7 +785,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4))::after {
@@ -800,7 +800,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5))::after {
@@ -815,7 +815,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5))::after {
@@ -830,7 +830,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6))::after {
@@ -845,7 +845,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6))::after {
@@ -860,7 +860,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(2 of .col7))::after {
@@ -875,7 +875,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(2 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(2 of .col7))::after {
@@ -890,7 +890,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(2 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4))::after {
@@ -905,7 +905,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4))::after {
@@ -920,7 +920,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5))::after {
@@ -935,7 +935,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5))::after {
@@ -950,7 +950,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6))::after {
@@ -965,7 +965,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6))::after {
@@ -980,7 +980,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col7))::after {
@@ -995,7 +995,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(3 of .col7))::after {
@@ -1010,7 +1010,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(3 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4))::after {
@@ -1025,7 +1025,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4))::after {
@@ -1040,7 +1040,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5))::after {
@@ -1055,7 +1055,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5))::after {
@@ -1070,7 +1070,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6))::after {
@@ -1085,7 +1085,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6))::after {
@@ -1100,7 +1100,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col7))::after {
@@ -1115,7 +1115,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(4 of .col7))::after {
@@ -1130,7 +1130,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(4 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(5 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4))::after {
@@ -1145,7 +1145,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(5 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(5 of .col1)):has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4))::after {
@@ -1160,7 +1160,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(5 of .col1)):has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5))::after {
@@ -1175,7 +1175,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5))::after {
@@ -1190,7 +1190,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6))::after {
@@ -1205,7 +1205,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6))::after {
@@ -1220,7 +1220,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col7))::after {
@@ -1235,7 +1235,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)):has(.token:nth-child(even):nth-child(5 of .col7))::after {
@@ -1250,7 +1250,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)):has(.token:nth-child(even):nth-child(5 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(6 of .col1)):has(.token:nth-child(odd):nth-child(6 of .col2)):has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4))::after {
@@ -1265,7 +1265,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(6 of .col1)):has(.token:nth-child(odd):nth-child(6 of .col2)):has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(6 of .col1)):has(.token:nth-child(even):nth-child(6 of .col2)):has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4))::after {
@@ -1280,7 +1280,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(6 of .col1)):has(.token:nth-child(even):nth-child(6 of .col2)):has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(6 of .col2)):has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5))::after {
@@ -1295,7 +1295,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(6 of .col2)):has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(6 of .col2)):has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5))::after {
@@ -1310,7 +1310,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(6 of .col2)):has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col6))::after {
@@ -1325,7 +1325,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5)):has(.token:nth-child(even):nth-child(6 of .col6))::after {
@@ -1340,7 +1340,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5)):has(.token:nth-child(even):nth-child(6 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col6)):has(.token:nth-child(odd):nth-child(6 of .col7))::after {
@@ -1355,7 +1355,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col6)):has(.token:nth-child(odd):nth-child(6 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5)):has(.token:nth-child(even):nth-child(6 of .col6)):has(.token:nth-child(even):nth-child(6 of .col7))::after {
@@ -1370,7 +1370,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5)):has(.token:nth-child(even):nth-child(6 of .col6)):has(.token:nth-child(even):nth-child(6 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 /* #endregion */
@@ -1387,7 +1387,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col1)):has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col1)):has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4))::after {
@@ -1402,7 +1402,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col1)):has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5))::after {
@@ -1417,7 +1417,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5))::after {
@@ -1432,7 +1432,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6))::after {
@@ -1447,7 +1447,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6))::after {
@@ -1462,7 +1462,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col7))::after {
@@ -1477,7 +1477,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(1 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(4 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col7))::after {
@@ -1492,7 +1492,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(1 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(4 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4))::after {
@@ -1507,7 +1507,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4))::after {
@@ -1522,7 +1522,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5))::after {
@@ -1537,7 +1537,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5))::after {
@@ -1552,7 +1552,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6))::after {
@@ -1567,7 +1567,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6))::after {
@@ -1582,7 +1582,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col7))::after {
@@ -1597,7 +1597,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(5 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(5 of .col7))::after {
@@ -1612,7 +1612,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(5 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4))::after {
@@ -1627,7 +1627,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(6 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4))::after {
@@ -1642,7 +1642,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(6 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5))::after {
@@ -1657,7 +1657,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(6 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5))::after {
@@ -1672,7 +1672,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(6 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col6))::after {
@@ -1687,7 +1687,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(6 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(6 of .col6))::after {
@@ -1702,7 +1702,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(6 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)):has(.token:nth-child(odd):nth-child(6 of .col7))::after {
@@ -1717,7 +1717,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(5 of .col6)):has(.token:nth-child(odd):nth-child(6 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)):has(.token:nth-child(even):nth-child(6 of .col7))::after {
@@ -1732,7 +1732,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(5 of .col6)):has(.token:nth-child(even):nth-child(6 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 /* #endregion */
@@ -1749,7 +1749,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(6 of .col1)):has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(6 of .col1)):has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4))::after {
@@ -1764,7 +1764,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(6 of .col1)):has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(6 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5))::after {
@@ -1779,7 +1779,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(6 of .col2)):has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(6 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5))::after {
@@ -1794,7 +1794,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(6 of .col2)):has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6))::after {
@@ -1809,7 +1809,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(6 of .col3)):has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6))::after {
@@ -1824,7 +1824,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(6 of .col3)):has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col7))::after {
@@ -1839,7 +1839,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(6 of .col4)):has(.token:nth-child(odd):nth-child(5 of .col5)):has(.token:nth-child(odd):nth-child(4 of .col6)):has(.token:nth-child(odd):nth-child(3 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(3 of .col7))::after {
@@ -1854,7 +1854,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(6 of .col4)):has(.token:nth-child(even):nth-child(5 of .col5)):has(.token:nth-child(even):nth-child(4 of .col6)):has(.token:nth-child(even):nth-child(3 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(5 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4))::after {
@@ -1869,7 +1869,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(5 of .col1)):has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(5 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4))::after {
@@ -1884,7 +1884,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(5 of .col1)):has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5))::after {
@@ -1899,7 +1899,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(5 of .col2)):has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5))::after {
@@ -1914,7 +1914,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(5 of .col2)):has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6))::after {
@@ -1929,7 +1929,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(5 of .col3)):has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6))::after {
@@ -1944,7 +1944,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(5 of .col3)):has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(2 of .col7))::after {
@@ -1959,7 +1959,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(5 of .col4)):has(.token:nth-child(odd):nth-child(4 of .col5)):has(.token:nth-child(odd):nth-child(3 of .col6)):has(.token:nth-child(odd):nth-child(2 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(2 of .col7))::after {
@@ -1974,7 +1974,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(5 of .col4)):has(.token:nth-child(even):nth-child(4 of .col5)):has(.token:nth-child(even):nth-child(3 of .col6)):has(.token:nth-child(even):nth-child(2 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4))::after {
@@ -1989,7 +1989,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(4 of .col1)):has(.token:nth-child(odd):nth-child(3 of .col2)):has(.token:nth-child(odd):nth-child(2 of .col3)):has(.token:nth-child(odd):nth-child(1 of .col4)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4))::after {
@@ -2004,7 +2004,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(4 of .col1)):has(.token:nth-child(even):nth-child(3 of .col2)):has(.token:nth-child(even):nth-child(2 of .col3)):has(.token:nth-child(even):nth-child(1 of .col4)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5))::after {
@@ -2019,7 +2019,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(4 of .col2)):has(.token:nth-child(odd):nth-child(3 of .col3)):has(.token:nth-child(odd):nth-child(2 of .col4)):has(.token:nth-child(odd):nth-child(1 of .col5)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5))::after {
@@ -2034,7 +2034,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(4 of .col2)):has(.token:nth-child(even):nth-child(3 of .col3)):has(.token:nth-child(even):nth-child(2 of .col4)):has(.token:nth-child(even):nth-child(1 of .col5)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(1 of .col6))::after {
@@ -2049,7 +2049,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(4 of .col3)):has(.token:nth-child(odd):nth-child(3 of .col4)):has(.token:nth-child(odd):nth-child(2 of .col5)):has(.token:nth-child(odd):nth-child(1 of .col6)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(1 of .col6))::after {
@@ -2064,7 +2064,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(4 of .col3)):has(.token:nth-child(even):nth-child(3 of .col4)):has(.token:nth-child(even):nth-child(2 of .col5)):has(.token:nth-child(even):nth-child(1 of .col6)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(1 of .col7))::after {
@@ -2079,7 +2079,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(odd):nth-child(4 of .col4)):has(.token:nth-child(odd):nth-child(3 of .col5)):has(.token:nth-child(odd):nth-child(2 of .col6)):has(.token:nth-child(odd):nth-child(1 of .col7)) + #status::after {
-  content: "Yellow wins! Refresh to reset";
+  content: "Yellow wins! Refresh to reset" !important;
 }
 
 #board:has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(1 of .col7))::after {
@@ -2094,7 +2094,7 @@
   cursor: not-allowed;
 }
 #board:has(.token:nth-child(even):nth-child(4 of .col4)):has(.token:nth-child(even):nth-child(3 of .col5)):has(.token:nth-child(even):nth-child(2 of .col6)):has(.token:nth-child(even):nth-child(1 of .col7)) + #status::after {
-  content: "Red wins! Refresh to reset";
+  content: "Red wins! Refresh to reset" !important;
 }
 
 /* #endregion */
