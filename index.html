@@ -25,7 +25,15 @@
             static host. All other JavaScript is disallowed by the CSP (in a meta tag since I can't
             control headers on GitHub Pages). Check with Right Click &rarr; View Source!
         </p>
+        <p>
+            Note that a lot of the functionality is implemented through CSS. Your browser needs to
+            support the <code>:has</code> selector for things like win detection to work.
+        </p>
 
+        <!--
+            Tokens are added by clicking on the drop-zone `div`s overlaid atop the board.
+            When the game is over or the corresponding columns are full, they're disabled by setting their `pointer-events` to `none`.
+        -->
         <div id="board">
             <div
                 class="drop-region col1"
@@ -78,6 +86,7 @@
                 hx-get="./token-7.html"
             ></div>
         </div>
+        <!-- This element is only used for its ::after. -->
         <div id="status"></div>
     </body>
 </html>
