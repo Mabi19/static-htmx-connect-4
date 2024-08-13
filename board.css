@@ -18,6 +18,10 @@ body {
     margin: auto;
 }
 
+code {
+    font-size: 1rem;
+}
+
 #board {
     margin: auto;
 
@@ -44,7 +48,7 @@ body {
     grid-column: var(--col);
 }
 
-.token:nth-child(2n) {
+.token:nth-child(even) {
     background-color: red;
 }
 
@@ -55,6 +59,18 @@ body {
     width: var(--token-size);
     height: calc(6 * var(--token-size));
     cursor: pointer;
+}
+
+/* highlight hovered drop regions */
+
+.drop-region:hover {
+    --drop-bg: rgba(255, 215, 0, 0.3);
+    background-color: var(--drop-bg);
+}
+
+.token:nth-child(odd) + #first-drop-region,
+.token:nth-child(odd) + #first-drop-region ~ .drop-region {
+    --drop-bg: rgba(255, 0, 0, 0.3);
 }
 
 /* put tokens and drop regions in the correct columns */
@@ -156,7 +172,7 @@ body {
     content: "Yellow to move";
 }
 
-#board:has(.token:nth-child(odd) + .drop-region) + #status::after {
+#board:has(.token:nth-child(odd) + #first-drop-region) + #status::after {
     content: "Red to move";
 }
 
