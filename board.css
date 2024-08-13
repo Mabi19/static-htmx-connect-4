@@ -1,4 +1,26 @@
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    src: local(IBM Plex Sans), local(IBMPlexSans), url(./IBMPlexSans-Regular.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-weight: 700;
+    src: local(IBM Plex Sans), local(IBMPlexSans), url(./IBMPlexSans-Bold.woff2);
+    font-display: swap;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    max-width: 600px;
+    margin: auto;
+}
+
 #board {
+    margin: auto;
+
     --token-size: 48px;
     --token-radius: 40px;
     --token-margin: 4px;
@@ -129,6 +151,8 @@
 }
 
 #status::after {
+    display: block;
+    text-align: center;
     content: "Yellow to move";
 }
 
