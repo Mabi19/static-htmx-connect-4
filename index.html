@@ -35,57 +35,19 @@
             Tokens are added by clicking on the drop-zone `div`s overlaid atop the board.
             When the game is over or the corresponding columns are full, they're disabled by setting their `pointer-events` to `none`.
         -->
-        <div id="board">
+        <div id="board" hx-sync="#board:drop" hx-target="#first-drop-region" hx-swap="beforebegin">
             <div
                 class="drop-region col1"
                 id="first-drop-region"
                 hx-trigger="click"
-                hx-target="#first-drop-region"
-                hx-swap="beforebegin"
                 hx-get="./token-1.html"
             ></div>
-            <div
-                class="drop-region col2"
-                hx-trigger="click"
-                hx-target="#first-drop-region"
-                hx-swap="beforebegin"
-                hx-get="./token-2.html"
-            ></div>
-            <div
-                class="drop-region col3"
-                hx-trigger="click"
-                hx-target="#first-drop-region"
-                hx-swap="beforebegin"
-                hx-get="./token-3.html"
-            ></div>
-            <div
-                class="drop-region col4"
-                hx-trigger="click"
-                hx-target="#first-drop-region"
-                hx-swap="beforebegin"
-                hx-get="./token-4.html"
-            ></div>
-            <div
-                class="drop-region col5"
-                hx-trigger="click"
-                hx-target="#first-drop-region"
-                hx-swap="beforebegin"
-                hx-get="./token-5.html"
-            ></div>
-            <div
-                class="drop-region col6"
-                hx-trigger="click"
-                hx-target="#first-drop-region"
-                hx-swap="beforebegin"
-                hx-get="./token-6.html"
-            ></div>
-            <div
-                class="drop-region col7"
-                hx-trigger="click"
-                hx-target="#first-drop-region"
-                hx-swap="beforebegin"
-                hx-get="./token-7.html"
-            ></div>
+            <div class="drop-region col2" hx-trigger="click" hx-get="./token-2.html"></div>
+            <div class="drop-region col3" hx-trigger="click" hx-get="./token-3.html"></div>
+            <div class="drop-region col4" hx-trigger="click" hx-get="./token-4.html"></div>
+            <div class="drop-region col5" hx-trigger="click" hx-get="./token-5.html"></div>
+            <div class="drop-region col6" hx-trigger="click" hx-get="./token-6.html"></div>
+            <div class="drop-region col7" hx-trigger="click" hx-get="./token-7.html"></div>
         </div>
         <!-- This element is only used for its ::after. -->
         <div id="status"></div>
